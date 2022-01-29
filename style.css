@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* ----common button start--- */
+.common_button{
+    border: none;
+    color: white;
+    padding: 13px 50px;
+    background-color: #DB5456;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+/* ----common button end--- */
+
+/* ----Header start--- */
+.header{
+    padding: 80px 120px;
+    height: 600px;
+}
+.header_content{
+    float: left;
+    width: 50%;
+}
+.header span{
+    font-size: 100px;
+    color: #DB5456;
+}
+.header h1{
+    font-size: 80px;
+}
+.header p{
+    font-size: 22px;
+    line-height: 35px;
+}
+.header_image{
+    float: right;
+    width: 50%;
+}
+.header_image img{
+    width: 90%;
+    border-radius: 50%;
+}
+
+/* ----header end--- */
+
+/* ----Breakfast Start--- */
+.breakfast{
+    height: 660px;
+    padding: 80px 120px;
+    background-color: #EEEEEE;
+}
+
+.breakfast .breakfast_card{
+    float: left;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    padding: 40px;
+    position:absolute;
+    margin: 50px 0 0 50px;
+}
+.breakfast_card h1{
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.breakfast_card p{
+    letter-spacing: 2px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.breakfast .breakfast_image{
+    width: 70%;
+    float: right;
+}
+.breakfast_image img{
+    width: 100%;
+    height: 500px;
+}
+/* ----Breakfast end--- */
+
+/* ----fastfood start--- */
+
+.fastfood{
+height: 650px;
+width: 100%;
+color: white;
+background: url(./images/fastfood.jpg);
+background-position: center;
+background-size: cover;
+}
+.fastfood_content{
+    padding: 200px 120px;
+    position: absolute;
+}
+.fastfood_content p{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.fastfood_content h1{
+    font-size: 70px;
+}
+.fastfood .fastfood_image{
+    /* width: 100%; */
+background-position: center;
+background-size: cover;
+}
+/* ----fastfood end--- */
+
+/* ----delivery start--- */
+.delivery{
+    height: 660px;
+    padding: 80px 120px;
+}
+.delivery_image{
+    width: 50%;
+    float: left;
+}
+.delivery_image img{
+    float: left;
+    border-radius: 50%;
+    width: 90%;
+}
+.delivery .breakfast_card{
+    padding: 80px;
+    background-color: #EEEEEE;
+    float: right;
+    width: 45%;
+    height: 500px;
+}
+
+/* ----delivery end--- */
+
+/* ----footer start--- */
+.footer{
+    height: 660px;
+    padding: 80px 120px;
+    background-color: black;
+    color: white;
+}
+.footer_image{
+    width: 40%;
+    float: left;
+}
+.footer_image img{
+    width: 100%;
+    height: 500px;
+}
+
+.footer_content{
+    padding: 80px;
+    width: 60%;
+    float: right;
+    text-align: center;
+}
+.footer_heading h1{
+    font-size: 50px;
+}
+.footer_heading p{
+    font-size: 22px;
+}
+.footer form input{
+    width: 250px;
+    background-color:black;
+    border: none;
+    padding: 20px;
+    outline: none;
+    color: white;
+    border-bottom: 2px solid #fff;
+}
+.footer .common_button{
+    border-radius: 0;
+}
+.footer .address{
+    margin-top:30px ;
+}
+.address h3{
+    font-weight: 500;
+    font-size: 27px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.address ul li{
+    list-style: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/* ----footer end--- */
